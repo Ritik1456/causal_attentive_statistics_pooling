@@ -21,8 +21,5 @@ output = model(x, lengths)
 print(output.shape)  # torch.Size([1, 8])
 ```
 
-## ✅ Causality Guarantee
-
-This layer ensures that each timestep only attends to itself and previous frames using a strict lower-triangular mask.
 
 
